@@ -17,6 +17,8 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
         run("http://119.59.116.171:8080/values")
 
+        
+
     }
 
     fun run(url: String) {
